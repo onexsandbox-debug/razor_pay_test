@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Razorpay Payment Link API via Vercel",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "vercel dev"
-  },
-  "dependencies": {}
+  }
 }
