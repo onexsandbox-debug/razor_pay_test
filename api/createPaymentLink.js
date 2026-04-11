@@ -1,6 +1,6 @@
-export default function handler(req, res) {
-  return res.status(200).json({
+module.exports = (req, res) => {
+  res.status(200).json({
     message: "API WORKING",
     method: req.method
   });
-}
+};
